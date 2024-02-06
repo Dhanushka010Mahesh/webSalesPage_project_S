@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Orders</title>
+	<link rel="stylesheet" type="text/css" href="Css/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="Css/sampleFileMain.css">
+	<script type="text/javascript" src="js/cartAddRemove.js"></script>
+
+		
+	
+
+</head>
+<body>
+	
+
+	<div style="width:80%; height: 100%; background-color: silver; margin: 10%; border-radius: 30px; padding: 60px; " >
+
+				<h1 style="text-align: center; color:red;">welcome</h1>
+				
+
+				<br/><br/><br/><br/><br/>
+				<h1 style="text-align: center; color: blue;">Web Develop order list</h1>
+
+				<p id="displayPlace1">Prise my (MacBook Air) : Rs: 0.00</p>
+				<p id="displayPlace2">Prise my (Acer Aspire 5) : Rs: 0.00</p>
+				<p id="displayPlace3">Prise my (MacBook M1 Pro Chip) : Rs: 0.00</p>
+				<p id="displayPlace4">Prise my (MacBook Air 11) : Rs: 0.00</p>				
+				<p id="displayPlace5">Prise my (ASUS ZenBook 13) : Rs: 0.00</p>
+				<p id="displayPlace6">Prise my (Asus M515DA AMD Ryzen 3 Notebook) : Rs: 0.00</p>
+				<p id="pi" style="color: red; font-size: 25px;">price</p>
+
+				<button onclick="MyFile1()">Display</button>
+				
+
+				<br/><br/><br/><br/><br/>
+				<h1 style="text-align: center; color: blue;">software devoloper order list</h1>
+
+				<p id="softLapBuy1">Prise my (Dell XPS 15) : Rs: 0.00</p>
+				<p id="softLapBuy2">Prise my (MacBook Air (M1)) : Rs: 0.00</p>
+				<p id="softLapBuy3">Prise my (ROG Zephyrus G15) : Rs: 0.00</p>
+				<p id="softLapBuy4">Prise my (MacBook Pro 16") : Rs: 0.00</p>				
+				<p id="softLapBuy5">Prise my (Lenovo ThinkPad X1 Nano) : Rs: 0.00</p>
+				<p id="softLapBuy6">Prise my (LG Gram 17) : Rs: 0.00</p>
+				<p id="pii" style="color: red; font-size: 25px;">price</p>
+
+				<button onclick="MyFile2()">Display</button>
+				
+
+				<br/><br/><br/><br/><br/>
+				<h1 style="text-align: center; color: blue;">Grapic Designer order list</h1>
+
+				<p id="graLapBuy1">Prise my (ASUS ROG Zephyrus G14) : Rs: 0.00</p>
+				<p id="graLapBuy2">Prise my (Acer Aspire 5 A515) : Rs: 0.00</p>
+				<p id="graLapBuy3">Prise my (Huawei MateBook X Pro) : Rs: 0.00</p>
+				<p id="graLapBuy4">Prise my (Acer ConceptD 7) : Rs: 0.00</p>				
+				<p id="graLapBuy5">Prise my (Razer Blade 14) : Rs: 0.00</p>
+				<p id="graLapBuy6">Prise my (Microsoft Surface Studio 2) : Rs: 0.00</p>
+				<p id="pii3" style="color: red; font-size: 25px;">price</p>
+
+				<button onclick="MyFile3()">Display</button>
+
+				<br/><br/><br/><br/><br/>
+				<h1 style="text-align: center; color: blue;">OutPut Devices order list</h1>
+
+				<p id="PartOutBuy1">Prise my (Headphones-Sony) : Rs: 0.00</p>
+				<p id="PartOutBuy2">Prise my (Monitor-Dell) : Rs: 0.00</p>
+				<p id="PartOutBuy3">Prise my (Video card) : Rs: 0.00</p>
+				<p id="PartOutBuy4">Prise my (Printer- HP) : Rs: 0.00</p>				
+				<p id="PartOutBuy5">Prise my (Laser Projector) : Rs: 0.00</p>
+				<p id="PartOutBuy6">Prise my (Sound Card) : Rs: 0.00</p>
+				<p id="pii4" style="color: red; font-size: 25px;">price</p>
+
+				<button onclick="MyFile4()">Display</button>
+				
+				<br/><br/><br/><br/><br/>
+        		<h1 style="text-align: center; color: blue;">Input parts order list</h1>
+
+        		<p id="PartIntBuy1">Prise my (Cavn Pen Light) : Rs: 0.00</p>
+        		<p id="PartIntBuy2">Prise my (Microphone) : Rs: 0.00</p>
+        		<p id="PartIntBuy3">Prise my (Eyoyo-Barcode Scanner) : Rs: 0.00</p>
+        		<p id="PartIntBuy4">Prise my (Razer Pro Type Ultra-keyborad) : Rs: 0.00</p>       
+        		<p id="PartIntBuy5">Prise my (Scanner-Fujitsu ScanSnap iX1600 ) : Rs: 0.00</p>
+        		<p id="PartIntBuy6">Prise my (Razer Viper V2 Pro-mouse) : Rs: 0.00</p>
+        		<p id="pii5" style="color: red; font-size: 25px;">price</p>
+
+        		<button onclick="MyFile5()">Display</button>
+
+
+        		<br/><br/><br/><br/><br/>
+        		<h1 style="text-align: center; color: blue;">Modifly parts order list</h1>
+
+        		<p id="PartModBuy1">Prise my (PHANTEKS NEON DIGITAL-RGB) : Rs: 0.00</p>
+        		<p id="PartModBuy2">Prise my (rgb fans) : Rs: 0.00</p>
+        		<p id="PartModBuy3">Prise my (Microsoft 365) : Rs: 0.00</p>
+        		<p id="PartModBuy4">Prise my (BLUETOOTH AUDIO SYSTEM) : Rs: 0.00</p>       
+        		<p id="PartModBuy5">Prise my (Adobe products) : Rs: 0.00</p>
+        		<p id="PartModBuy6">Prise my (laptop stand-Best Overall) : Rs: 0.00</p>
+        		<p id="pii6" style="color: red; font-size: 25px;">price</p>
+
+        		<button onclick="MyFile6()">Display</button>
+				
+				
+		</div>
+		<div style="color:#6200ea; margin: 200px; padding: 10px; background-color: #d500f9; border-radius: 70px; text-align: center;">
+			<button ondblclick="calPrice()">Calculate Price</button>
+			<p id="CalPrint" style="font-size: 20px;">
+
+		</div >
+
+		<!--<div id="getClass">
+			
+
+		*/</div>-->
+
+</body>
+</html>

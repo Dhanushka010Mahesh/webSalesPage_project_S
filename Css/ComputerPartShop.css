@@ -1,0 +1,309 @@
+/* ......................................................... */
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ......................................................... */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar:hover{
+  background-color:#111111;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+/* ......................................................... */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content .header {
+  background: #550000;
+  padding: 8px;
+  color: white;
+  margin: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* ......................................................... */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  background-color: #444455;
+  height: 250px;
+}
+
+.column a {
+  float: none;
+  color: black;
+  padding: 14px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.column a:hover {
+  background-color: #ddd;
+  border: 1px solid #550000;
+}
+
+
+/* ......................................................... */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.navbar a.split {
+  float: right;
+  background-color: #440000;
+  color: white;
+}
+
+.navbar .login-container {
+  float: right;
+}
+
+.navbar input[type=text] {
+  padding: 12px;
+  margin-top: 1px;
+  margin-left: 8px;
+  font-size: 17px;
+  border: none;
+  width:150px;
+  border-radius: 10px;
+}
+.navbar input:hover{
+  border:1px solid pink;
+
+}
+
+.navbar .login-container button {
+  float: right;
+  padding: 12px 10px;
+  margin-top: 1px;
+  margin-right: 16px;
+  margin-left: 5px;
+  background-color: #555;
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar .login-container button:hover {
+  background-color: green;
+  border: 1px solid pink;
+}
+
+
+
+/* ......................................................... */
+div.relative{
+  
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.bg-image {
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img1 { background-image: url("img/bg1.jpg"); }
+.img3 { background-image: url("img/bg2.jpg"); }
+
+
+/* ......................................................... */
+div.absolute{
+  position: absolute;
+  border: 3px solid #73AD21;
+  width: 100%;
+  height: 197%;
+  top: 20px;
+  border-radius: 60px;
+}
+
+/* ......................................................... */
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  display: block;
+
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd; 
+
+}
+
+/* ......................................................... */
+.lastOne{
+  background-color: pink;
+
+}
+.lastOne:hover{
+  background-color: green;
+}
+
+
+/* ......................................................... */
+.column1 {
+  float: left;
+  width: 24%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  margin: 6px;
+}
+.column1 img{
+  width: 98%;
+  height: 220px;
+}
+
+/* ......................................................... */
+#columnHed{
+
+  font-size: 24px;
+  margin: 5px;
+  color: red;
+
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 1px;
+  text-align: center;
+  color: blue;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.row .column1{
+  background-color: transparent;
+  border:1px dotted red;
+}
+.row .column1:hover{
+   background: rgba(255, 255, 255, 0.9);
+   border:1px solid green;
+}
+
+.row .column1 .brandCard1{
+  color: blue;
+  text-align: center;
+}
+
+/* ......................................................... */
+.column2 {
+  float: left;
+  width: 13%;
+  padding: 2px;
+  height: 180px; /* Should be removed. Only for demonstration */
+  margin: 4px;
+  margin-left: 14px;
+
+}
+.row .column2:hover{
+  background: rgba(255, 255, 255, 0.6);
+   border:1px solid green;
+
+}
+.column2 img{
+  width: 98%;
+  height: 98%;
+}
+/* ......................................................... */

@@ -1,0 +1,45 @@
+#sampleHed{
+
+	color: blue;
+}
+.ComLap{
+	background-color: #ede7f6;
+	color:#4a148c ;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+
+}
+.GamOnOff{
+	background-color:#e8f5e9;
+	color: #004d40;
+	font-family:fantasy;
+	font-weight: bold;
+	text-align: center;
+	
+}
+.PartComLap{
+	background-color:#efebe9 ;
+	color: #d50000;
+	font-family: cursive;
+	text-align: center;
+}
+
+.begin1{
+	background-color: #f3e5f5;
+
+}
+.productNew{
+	margin: auto;
+	border: 2px solid red;
+	width: 80%;
+	height: 800px;
+}
+.btnHover:hover{
+	color: green;
+	background-color: black;
+}
+.btnHover1:hover{
+	color: red;
+	background-color: blue;
+}

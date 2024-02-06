@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Computer Part Online Shop Contact</title>
+	<link rel="stylesheet" type="text/css" href="css/LoginAboutContact.css">
+	<script>
+		function myFunction1() {
+
+
+				var copyText1 = document.getElementById("myInput1");
+				copyText1.select();
+  				copyText1.setSelectionRange(0, 99999);
+  				navigator.clipboard.writeText(copyText1.value);
+			
+ 		 	}
+ 		function myFunction2() {
+ 			var copyText2 = document.getElementById("myInput2");
+ 			copyText2.select();
+  			copyText2.setSelectionRange(0, 99999);
+  			navigator.clipboard.writeText(copyText2.value);
+
+ 		}
+ 		function myFunction3() {
+ 			var copyText3 = document.getElementById("myInput3");
+ 			copyText3.select();
+  			copyText3.setSelectionRange(0, 99999);
+  			navigator.clipboard.writeText(copyText3.value);
+
+ 		}
+ 		function myFunction4() {
+ 			var copyText4 = document.getElementById("myInput4");
+ 			copyText4.select();
+  			copyText4.setSelectionRange(0, 99999);
+  			navigator.clipboard.writeText(copyText4.value);
+
+ 		}
+ 		function openNav() {
+  			document.getElementById("mySidenav").style.width = "250px";
+		}
+
+		function closeNav() {
+  			document.getElementById("mySidenav").style.width = "0";
+		}
+</script>
+
+
+</head>
+<body style="background-image: url('Pic/6.jpg');">
+
+
+<!--  .......................................  -->
+	<div id="mySidenav" class="sidenav">
+  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  		<a href="ComputerPartHomePage.html">Menu</a>
+  		<a href="ContactPage.htm">Contact</a>
+  		<a href="AboutPage.html">About</a>
+  		<a href="LoginPage.html">Login</a>
+
+	</div>
+
+<!--  .......................................  -->
+	<span style="font-size:30px;cursor:pointer;color: red;" onclick="openNav()">&#9776; Open Menu</span>
+
+<!--  .......................................  -->
+	<h2 class="h2hed">Computer Part Shop Contact Details</h2>
+	<div class="ContactOut">
+
+			<div class="danger">
+  				<p>Computer Part Shop Hotling Number</p>
+  				<input type="text" value="0766640384" id="myInput1">
+				<button onclick="myFunction1()">Copy text</button>
+			</div>
+
+			<div class="success">
+ 		 		<p>Customer servise and helping Number</p>
+ 		 		<input type="text" value="0706540384" id="myInput2">
+				<button onclick="myFunction2()">Copy text</button>
+			</div>
+
+			<div class="info">
+  				<p>Email Address</p>
+  				<input type="text" value="Asus515dhanushka@gmail.com" id="myInput3">
+				<button onclick="myFunction3()">Copy text</button>
+			</div>
+
+			<div class="warning">
+  				<p>Company Address</p>
+  				<input type="text" value="54/1 , Marawanagoda , Warellagama ." id="myInput4">
+				<button onclick="myFunction4()">Copy text</button>
+			</div>
+
+	</div>
+
+
+</body>
+</html>

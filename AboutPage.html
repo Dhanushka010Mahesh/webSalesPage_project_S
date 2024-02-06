@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Computer Part Online Shop About</title>
+	<link rel="stylesheet" type="text/css" href="css/LoginAboutContact.css">
+	<script>
+		function openNav() {
+  			document.getElementById("mySidenav").style.width = "250px";
+		}
+
+		function closeNav() {
+  			document.getElementById("mySidenav").style.width = "0";
+		}
+		function displayNextImage() {
+              x = (x === images.length - 1) ? 0 : x + 1;
+              document.getElementById("img").src = images[x];
+          }
+
+          function displayPreviousImage() {
+              x = (x <= 0) ? images.length - 1 : x - 1;
+              document.getElementById("img").src = images[x];
+          }
+
+          function startTimer() {
+              setInterval(displayNextImage, 3000);
+          }
+
+          var images = [], x = -1;
+          images[0] = "Pic/AboutWol/A01.webp";
+          images[1] = "Pic/AboutWol/A07.jpeg";
+          images[2] = "Pic/AboutWol/A03.webp";
+          images[3] = "Pic/AboutWol/A05.webp";
+          images[4] = "Pic/AboutWol/A06.jpg";
+          images[5] = "Pic/AboutWol/A04.jpg";
+          images[6] = "Pic/AboutWol/A02.png";
+	</script>
+
+</head>
+<body onload = "startTimer()" style="background-image:url('Pic/3.jpg');">
+
+<!--  ..............................................................  -->
+	<div id="mySidenav" class="sidenav">
+  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  		<a href="ComputerPartHomePage.html">Menu</a>
+  		<a href="ContactPage.htm">Contact</a>
+  		<a href="AboutPage.html">About</a>
+  		<a href="LoginPage.html">Login</a>
+
+	</div>
+
+<!--  ..............................................................  -->	
+	<span style="font-size:30px;cursor:pointer; color: red;" onclick="openNav()">&#9776; open</span>
+
+<!--  ..............................................................  -->
+	<div class="changeImg center">
+		<img id="img" src="Pic/AboutWol/A00.jpg"/><br>
+       <button type="button" onclick="displayPreviousImage()">Previous</button>
+       <button type="button" onclick="displayNextImage()">Next</button>
+	</div>
+
+<!--  ..............................................................  -->
+	<p style="margin:30px; background-color:lightgreen; padding: 15px; border:2px double red;">
+		Welcome to ComputerPart Online Shop, your ultimate destination for all things computing!
+		 We are passionate about providing top-notch computer parts, the latest in computer games, 
+		 brand new computers, and cutting-edge laptops. With a commitment to quality and customer 
+		 satisfaction, we aim to be your one-stop shop for all your tech needs. Our team is 
+		 dedicated to staying ahead of the curve, offering the most innovative products while
+		  ensuring a seamless shopping experience. At ComputerPart Online Shop , we don’t just 
+		  sell technology; we're here to empower and inspire your digital journey. Join us as we 
+		  redefine the way you experience technology!
+	</p>
+
+	
+
+
+</body>
+</html>

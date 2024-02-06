@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Computer Part Online Shoping Items</title>
+	<link rel="stylesheet" type="text/css" href="Sample/Css/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="Sample/Css/sampleFileMain.css">
+	<script type="text/javascript" src="Sample/js/cartAddRemove.js"></script>
+
+</head>
+<body>
+
+
+  
+	<!--left icons and heding ............................................................................................................
+				-->
+	<div class="container begin1" >
+			<h1 style="font-family: monospace; font-weight: bold; font-size: 50px; text-align:right; color: #990000;">Computer Part Online Shop</h1>
+  
+  	<div class="p-3 text-center bg-white border-bottom">
+    	<div class="container ">
+      	<div class="row">
+       		<div class="col-md-4 d-flex justify-content-center justify-content-md-start mb-3 mb-md-0">
+         		<a href="#!" class="ms-md-2">
+            	<img src="Pic/badGuy1.png" height="60px" /></a>
+       		</div>
+        	
+
+
+        	<!-- shearch bar ................................................................................................................
+        		 -->
+        	<div class="col-md-4 ">
+         		<form class="d-flex input-group w-auto my-auto mb-3 mb-md-0">
+         		<input class="form-control me-2" autocomplete="off" type="search" placeholder="Search" aria-label="Search">
+           	 	<button class="btn btn-outline-success" type="submit">Search</button>
+            	<span class="input-group-text border-0 d-none d-lg-flex"><i class="fas fa-search"></i></span>
+
+          		</form>
+        	</div>
+
+
+
+        	<!-- notification icon .......................................................................................................
+        		 -->
+        	<div class="col-md-4 d-flex justify-content-center justify-content-md-end align-items-center">
+          	<div class="d-flex">
+            	<a class="text-reset me-3" href="Sample/MyOrders.htm">
+              	<span><i class="fas fa-shopping-cart"></i></span>
+              	<span class="badge rounded-pill badge-notification bg-danger">Notification and Order List</span>
+            	</a>  <p  id="demoOrder" class="align-items-center">helo</p>  
+
+   					</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar  begin ............................................................................................................................
+		-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <!-- Container wrapper -->
+    <div class="container justify-content-center justify-content-md-between">
+      <!-- Left links -->
+      <ul class="navbar-nav flex-row">
+        <li class="nav-item me-2 me-lg-0">
+          <a href="ComputerPartHomePage.html" class="nav-link" role="button" data-mdb-toggle="sidenav" data-mdb-target="#sidenav-1"
+            class="btn shadow-0 p-0 me-3" aria-controls="#sidenav-1" aria-haspopup="true">
+            <i class="fas fa-bars me-1"></i>
+            <span>Menu</span>
+          </a>
+        </li>
+        <li class="nav-item me-2 me-lg-0 d-none d-md-inline-block">
+          <a class="nav-link" href="ContactPage.htm">Contact</a>
+        </li>
+        <li class="nav-item me-2 me-lg-0 d-none d-md-inline-block">
+          <a class="nav-link" href="AboutPage.html">About Us</a>
+        </li>
+        <li class="nav-item me-2 me-lg-0 d-none d-md-inline-block">
+          <a class="nav-link" href="LoginPage.html">Login</a>
+        </li>
+      </ul>
+      <!-- Left links -->
+
+      <button class="btn btn-outline-primary" data-mdb-ripple-color="dark" type="button">
+        Download List Of Computer Parts Prise<i class="fas fa-download ms-2"></i>
+      </button>
+    </div>
+    <!-- Container wrapper -->
+  	</nav>
+
+
+
+
+	<!-- items list ............................................................................................................................
+
+  -->
+
+  		<div id="sidenav-1" class="sidenav" role="navigation" data-mdb-hidden="true" data-mdb-accordion="true">
+    		<ul class="sidenav-menu">
+      			<li class="sidenav-item">
+        		<a class="sidenav-link"><i class="fas fa-layer-group pe-3" ></i><span>Brand New Computer And Laptop</span></a>
+        			<ul class="sidenav-collapse show" >
+          				<li class="sidenav-item">
+            			<a class="sidenav-link" href="#WebDevelop" style="color:#4a148c ;">For Web Devoloper</a>
+            			</li>
+          				<li class="sidenav-item">
+            			<a class="sidenav-link" href="#SoftwareEnginner" style="color:#4a148c ;">For Software Enginner</a>
+          				</li>
+          				<li class="sidenav-item">
+            			<a class="sidenav-link" href="#GrapicDesigner" style="color:#4a148c ;">For Grapic Designer</a>
+          				</li>
+        			</ul>
+      			</li>
+      			<li class="sidenav-item">
+        		<a class="sidenav-link"><i class="fas fa-gem pe-3"></i><span>Type of Games</span></a>
+        			<ul class="sidenav-collapse" >
+          				<li class="sidenav-item">
+            			<a class="sidenav-link" href="#OnlineGame" style="color:#004d40 ;">Online Popular Games</a>
+            			</li>
+          				<li class="sidenav-item">
+            			<a class="sidenav-link" href="#OfflineGame" style="color:#004d40 ;">Offline Popular Games</a>
+          				</li>
+          				<li class="sidenav-item">
+            			<a class="sidenav-link" href="#NewGame" style="color:#004d40 ;">New Games</a>
+          				</li>
+        			</ul>
+      				</li>
+      			<li class="sidenav-item">
+        		<a class="sidenav-link"><i class="fas fa-gift pe-3"></i><span>Computer and Laptop Part Devices</span></a>
+        			<ul class="sidenav-collapse" >
+          				<li class="sidenav-item">
+            			<a class="sidenav-link" href="#OutputPart" style="color:#d50000 ;">Output Devices</a>
+          				</li>
+          				<li class="sidenav-item">
+            			<a class="sidenav-link" href="#InputPart" style="color:#d50000 ;">Input Devices</a>
+          				</li>
+          				<li class="sidenav-item">
+            			<a class="sidenav-link" href="#ModiflyPart" style="color:#d50000 ;">Other Modifly Part</a>
+          				</li>
+      		</ul>
+  	</div>
+
+
+  	</div>
+
+
+	<div class="container ComLap" >
+			<div id="WebDevelop" >
+		
+				<h2>For Web Devoloper</h2>
+				<iframe src="Sample/brandSample.html" height="500px" width="100%" title="Iframe Example"></iframe>
+			
+			</div>
+			<div id="SoftwareEnginner" >
+		
+				<h2>For Software Enginner</h2>
+				<iframe src="Sample/brandSample1.htm" height="500px" width="100%" title="Iframe Example"></iframe>
+			
+			</div>
+			<div id="GrapicDesigner">
+		
+				<h2>For Grapic Designer</h2>
+				<iframe src="Sample/brandSample2.htm" height="500px" width="100%" title="Iframe Example"></iframe>
+			
+			</div>
+	</div>
+
+	<div class="container GamOnOff">
+			<div id="OnlineGame" >
+		
+				<h2>Online Popular Games</h2>
+				<iframe src="Sample/gameSample.html" height="400px" width="100%" title="Iframe Example"></iframe>
+			
+			</div>
+			<div id="OfflineGame" >
+		
+				<h2>Offline Popular Games</h2>
+				<iframe src="Sample/gameSample1.htm" height="400px" width="100%" title="Iframe Example"></iframe>
+			
+			</div>
+			<div id="NewGame" >
+		
+				<h2>New Games</h2>
+				<iframe src="Sample/gameSample2.htm" height="400px" width="100%" title="Iframe Example"></iframe>
+			
+			</div>
+	</div>
+
+	<div class="container PartComLap">
+			<div id="OutputPart" >
+		
+				<h2>Output Devices</h2>
+				<iframe src="Sample/partsSample.html" height="350px" width="100%" title="Iframe Example"></iframe>
+			
+			</div>
+			<div id="InputPart" >
+		
+				<h2>Input Devices</h2>
+				<iframe src="Sample/partsSample1.html" height="350px" width="100%" title="Iframe Example"></iframe>
+			
+			</div>
+			<div id="ModiflyPart" >
+		
+				<h2>Other Modifly Part</h2>
+				<iframe src="Sample/partsSample2.html" height="350px" width="100%" title="Iframe Example"></iframe>
+			
+			</div>
+			
+	</div>
+	<section class="container" style="border: 2px solid red;">
+  <!-- Footer -->
+  <footer class="bg-body-tertiary text-center">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Computer Parts Online Shop</h5>
+
+          <p>
+            Kandy
+          </p>
+        </div>
+      
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Main Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="ComputerPartHomePage.html" class="text-body">Menu</a>
+            </li>
+            <li>
+              <a href="ContactPage.htm" class="text-body">Contact</a>
+            </li>
+            <li>
+              <a href="AboutPage.html" class="text-body">About</a>
+            </li>
+            <li>
+              <a href="LoginPage.html" class="text-body">Login</a>
+            </li>
+          </ul>
+        </div>
+    
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-0">Sub Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#WebDevelop" class="text-body">Laptops</a>
+            </li>
+            <li>
+              <a href="#OnlineGame" class="text-body">Games</a>
+            </li>
+            <li>
+              <a href="#OutputPart" class="text-body">Computer parts</a>
+            </li>
+            <li>
+              <a href="Sample/MyOrders.htm" class="text-body">Order List</a>
+            </li>
+          </ul>
+        </div>
+       
+      </div>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2023 Create Dhanushka Mahesh:
+      <a class="text-body" href="ComputerPartHomePage.html">My WebSite</a>
+    </div>
+    
+  </footer>
+</section>
+</body>
+</html>
